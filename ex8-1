@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int i;
+    int a[10],sum;
+    for(i=0;i<2;i++)
+    {
+        scanf("%d",&a[i]);
+        sum+=a[i];
+    }
+    
+    printf("average=%d",a[0]);
+    printf("average=%d",a[1]);
+}
