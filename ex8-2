@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int i;
+    int a[10],sum=0;
+    for(i=0;i<3;i++)
+    {
+        scanf("%d",&a[i]);
+        sum+=a[i];
+    }
+    for(i=0;i<3;i++)
+    {
+        printf("average=%d \n",a[i]);
+    }
+    printf("sum=%d \n",sum);
+
+    sum=sum/3;
+    printf("the one which is the fucking ture average=%d \n",sum);
+    
+    return 0;
+    
+    
+}
+    
