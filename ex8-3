@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=0,b=0,c=0;
+    int i,s[10]; 
+    for(i=0;i<10;i++){
+        scanf("%d",&s[10]);
+        if(s[10]>0)
+            a++;
+        if(s[10]==0)
+            b++;
+        if(s[10]<0)
+            c++;
+    }
+    printf("整數:%d\n零:%d\n負數:%d\n",a,b,c);
+    
+
+    return 0;
+}
